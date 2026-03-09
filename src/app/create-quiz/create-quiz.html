@@ -1,0 +1,13 @@
+<div class="quiz-container">
+
+<h2>Create New Quiz</h2>
+
+<input type="text" placeholder="Enter Quiz Title" [(ngModel)]="quizTitle">
+
+<textarea placeholder="Enter Quiz Description" [(ngModel)]="quizDescription"></textarea>
+
+<button (click)="createQuiz()">Create Quiz</button>
+
+<p class="success">{{message}}</p>
+
+</div>

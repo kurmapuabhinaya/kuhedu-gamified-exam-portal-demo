@@ -1,0 +1,21 @@
+<div class="question-container">
+
+<h2>Add Question</h2>
+
+<input type="text" placeholder="Enter Question" [(ngModel)]="question">
+
+<input type="text" placeholder="Option A" [(ngModel)]="optionA">
+
+<input type="text" placeholder="Option B" [(ngModel)]="optionB">
+
+<input type="text" placeholder="Option C" [(ngModel)]="optionC">
+
+<input type="text" placeholder="Option D" [(ngModel)]="optionD">
+
+<input type="text" placeholder="Correct Answer" [(ngModel)]="answer">
+
+<button (click)="addQuestion()">Add Question</button>
+
+<p class="success">{{message}}</p>
+
+</div>
